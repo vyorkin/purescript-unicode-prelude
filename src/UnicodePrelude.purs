@@ -2,7 +2,7 @@ module UnicodePrelude
   ( (∘), (⋘), (⋙)
   , (◇), (⊛), (⊙)
   , (≡), (≢), (∧), (∨)
-  , (⤛), (⤜), (⤖), (⬻)
+  , (⤛), (⤜), (⤖), (⬻), type (⟿)
   ) where
 
 import Prelude
