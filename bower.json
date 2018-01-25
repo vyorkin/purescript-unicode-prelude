@@ -1,0 +1,23 @@
+{
+  "name": "purescript-unicode-prelude",
+  "version": "0.1.0",
+  "description": "Additional unicode operators for purescript-prelude.",
+  "license": "MIT",
+  "authors": [
+    "Vasiliy Yorkin <vasiliy.yorkin@gmail.com>"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^3.1.1"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^3.0.0"
+  }
+}
