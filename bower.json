@@ -6,6 +6,10 @@
   "authors": [
     "Vasiliy Yorkin <vasiliy.yorkin@gmail.com>"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vyorkin/purescript-unicode-prelude.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
