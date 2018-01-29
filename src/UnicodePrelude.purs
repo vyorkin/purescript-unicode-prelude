@@ -1,7 +1,8 @@
 module UnicodePrelude
   ( (∘), (⋘), (⋙)
   , (◇), (⊛), (⊙)
-  , (≡), (≢), (∧), (∨)
+  , (≡), (≢), (≤), (≥)
+  , (∧), (∨)
   , (⤛), (⤜), (⤖), (⬻), type (⟿)
   ) where
 
@@ -12,6 +13,7 @@ import Control.Bind (bindFlipped, composeKleisli, composeKleisliFlipped)
 import Control.Semigroupoid (composeFlipped)
 import Data.Functor (voidLeft, voidRight)
 import Data.NaturalTransformation (NaturalTransformation)
+import Data.Ord (greaterThanOrEq, lessThanOrEq)
 
 infixl 1 bind as ⤜
 infixr 1 bindFlipped as ⤛
@@ -37,6 +39,9 @@ infixr 5 append as ◇
 
 infix 4 eq as ≡
 infix 4 notEq as ≢
+
+infixl 4 lessThanOrEq as ≤
+infixl 4 greaterThanOrEq as ≥
 
 infix 3 conj as ∧
 infix 2 disj as ∨
