@@ -15,7 +15,7 @@ They should be completely interchangeable with their definitions.
 This guide assumes you already have Git, Node.js and Bower installed
 with `npm` and `bower` somewhere on your path.
 
-## Installation 🔓
+## Installation
 
 Clone the repo, step into it and install the dependencies:
 
@@ -24,7 +24,7 @@ $ npm i
 $ bower i
 ```
 
-## Building 🔧
+## Building
 
 The project can now be built with:
 
