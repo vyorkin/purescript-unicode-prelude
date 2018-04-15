@@ -1,6 +1,6 @@
 {
   "name": "purescript-unicode-prelude",
-  "version": "0.1.3",
+  "version": "0.2.3",
   "description": "Additional unicode operators for purescript-prelude.",
   "license": "MIT",
   "authors": [

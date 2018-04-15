@@ -1,6 +1,7 @@
 {
   "private": true,
   "scripts": {
+    "postinstall": "bower cache clean && bower install",
     "clean": "del output .pulp-cache",
     "build": "pulp build -- --censor-lib --strict",
     "upgrade": "ncu -u"
