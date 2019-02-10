@@ -2,8 +2,13 @@
   "private": true,
   "scripts": {
     "postinstall": "bower cache clean && bower install",
+    "build": "pulp build",
+    "repl": "pulp repl",
+    "docs": "pulp docs",
+    "bump": "pulp version",
+    "release": "pulp publish",
     "clean": "rm -rf output .pulp-cache",
-    "build": "pulp build -- --censor-lib --strict"
+    "reset": "rm -rf node_modules bower_components"
   },
   "devDependencies": {
     "pulp": "^12.0.1"

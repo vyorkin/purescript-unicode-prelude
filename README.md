@@ -2,7 +2,7 @@
 
 Additional Unicode operators.
 
-This package defines Unicode symbol aliases for a number of functions and operators
+This package defines Unicode symbol aliases for a number of functions, types and operators
 in the `Prelude`. Many of these aliases enable the use of standard mathematical notation
 in place of ASCII approximations of textual names. For example, `⋘` or `∘` can be used
 in place of `<<<` for function composition.
@@ -21,8 +21,9 @@ Clone the repo, step into it and install the dependencies:
 
 ```
 $ npm i
-$ bower i
 ```
+
+Bower dependencies will be installed automatically.
 
 ## Building
 
@@ -32,9 +33,23 @@ The project can now be built with:
 $ npm run build
 ```
 
+or just:
+
+```
+$ make
+```
+
+## Releasing
+
+```
+make release v=x.x.x
+```
+
+For more info read the [pulp docs](https://github.com/purescript-contrib/pulp#releasing-packages).
+
 ## Credits
 
-Based on the [base-unicode-symbols](https://github.com/roelvandijk/base-unicode-symbols).
+Based on the [base-unicode-symbols](https://github.com/roelvandijk/base-unicode-symbols) and [purescript-unicode-prelude](https://github.com/csicar/purescript-unicode-prelude) package by @csicar.
 
 ## Resources
 

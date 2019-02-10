@@ -1,8 +1,14 @@
-clean:
-	npm run clean
 build:
 	npm run build
-upgrade:
-	npm run upgrade
+repl:
+	npm run repl
+release:
+	npm run docs
+	npm run bump -- ${v}
+	npm run release
+clean:
+	npm run clean
+reset:
+	npm run reset
 
-.PHONY: clean build upgrade
+.PHONY: build repl release clean reset
