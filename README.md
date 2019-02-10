@@ -41,6 +41,8 @@ $ make
 
 ## Releasing
 
+1. Update version in `bower.json`
+2.
 ```
 make release v=x.x.x
 ```
